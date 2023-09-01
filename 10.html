@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson10 Excercises10 - Nested Layouts Techique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .g {
+        display: inline-block;
+      }
+      .layouts {
+        display: inline-block;
+        height: 150px;
+        width: 500px;
+      }
+      .layouts-1 {
+        display: block;
+      }
+      .images {
+        width: 100px;
+        border-radius: 50%;
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        object-position: center;
+      }
+      p {
+        /* width: 250px; */
+        font-family: roboto, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        padding-right: 150px;
+      }
+      .profile,
+      .box-text,
+      .btn {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .type,
+      .status {
+        color: gray;
+        font-weight: lighter;
+      }
+      .name {
+        font-weight: bold;
+      }
+      button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(11, 126, 235);
+        color: white;
+        font-weight: bold;
+      }
+      .youtube {
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+      }
+      .vedio-preview {
+        width: 200px;
+        height: 100px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .layout-vedio,
+      .video-title {
+        display: inline-block;
+        vertical-align: top;
+      }
+      .title {
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 20px;
+      }
+      .author,
+      .views {
+        color: gray;
+        font-weight: 300;
+        margin-top: 0px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="g">
+      <div class="layouts">
+        <div class="profile">
+          <img src="/Beginner/images/haechan.jpg" alt="" class="images" />
+        </div>
+        <div class="box-text">
+          <p class="name">Oliver</p>
+          <p class="type">the cat</p>
+          <p class="status">Popular</p>
+        </div>
+      </div>
+
+      <div class="layouts">
+        <div class="profile">
+          <img src="/Beginner/images/haechan.jpg" alt="" class="images" />
+        </div>
+        <div class="box-text">
+          <p class="name">heachan</p>
+          <p class="type">the cat</p>
+          <p class="status">Popular</p>
+        </div>
+        <div class="btn">
+          <button>Follow</button>
+        </div>
+      </div>
+
+      <div class="layouts-1">
+        <div class="profile">
+          <img src="/Beginner/images/haechan.jpg" alt="" class="images" />
+        </div>
+        <div class="box-text">
+          <p class="name">heachan</p>
+          <p class="type">the cat</p>
+          <p class="status">Popular</p>
+        </div>
+        <div class="btn">
+          <button>Follow</button>
+        </div>
+      </div>
+      <div class="layouts-1">
+        <div class="profile">
+          <img src="/Beginner/images/haechan.jpg" alt="" class="images" />
+        </div>
+        <div class="box-text">
+          <p class="name">heachan</p>
+          <p class="type">the cat</p>
+          <p class="status">Popular</p>
+        </div>
+        <div class="btn">
+          <button>Follow</button>
+        </div>
+      </div>
+      <div class="layouts-1">
+        <div class="profile">
+          <img src="/Beginner/images/haechan.jpg" alt="" class="images" />
+        </div>
+        <div class="box-text">
+          <p class="name">heachan</p>
+          <p class="type">the cat</p>
+          <p class="status">Popular</p>
+        </div>
+        <div class="btn">
+          <button>Follow</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="youtube">
+      <div class="layout-vedio">
+        <img
+          src="/Beginner/images/Bijou but with glasses _3.jpg"
+          alt="Bijou"
+          class="vedio-preview"
+        />
+        <div class="video-title">
+          <p class="title">How to complete</p>
+          <p class="author">SuperSimpleDev</p>
+          <p class="views">การดู 6,496,444 ครั้ง &#183; 1 ปีที่แล้ว</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="youtube">
+      <div class="layout-vedio">
+        <img
+          src="/Beginner/images/Bijou but with glasses _3.jpg"
+          alt="Bijou"
+          class="vedio-preview"
+        />
+        <div class="video-title">
+          <p class="title">How to complete</p>
+          <p class="author">SuperSimpleDev</p>
+          <p class="views">การดู 6,496,444 ครั้ง &#183; 1 ปีที่แล้ว</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="youtube">
+      <div class="layout-vedio">
+        <img
+          src="/Beginner/images/Bijou but with glasses _3.jpg"
+          alt="Bijou"
+          class="vedio-preview"
+        />
+        <div class="video-title">
+          <p class="title">How to complete</p>
+          <p class="author">SuperSimpleDev</p>
+          <p class="views">การดู 6,496,444 ครั้ง &#183; 1 ปีที่แล้ว</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

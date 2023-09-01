@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>8 Exercises - Display Block and Inline-Block</title>
+    <link rel="stylesheet" href="/Beginner/images/Google-logo.png" />
+    <style>
+      .name,
+      .email {
+        display: block;
+        margin-top: 3px;
+      }
+      .text {
+        width: 210px;
+        font-weight: bold;
+      }
+      .text,
+      button {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .google-logo {
+        display: block;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .search-bar {
+        display: block;
+        width: 400px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 18px;
+        border: none;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+        border-radius: 30px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="name" type="text" placeholder="Name" />
+    <input class="email" type="email" placeholder="Email" />
+    <p class="text">
+      Thanks for chatting whit our customer support. Would you like to take our
+      quick survey?
+    </p>
+    <button>Yes</button>
+    <button>No</button>
+    <!-- <br /> -->
+    <img
+      class="google-logo"
+      src="/Beginner/images/Google-logo.png"
+      alt="logo-google"
+    />
+    <input
+      class="search-bar"
+      type="text"
+      placeholder="Search Google or type a URL"
+    />
+  </body>
+</html>

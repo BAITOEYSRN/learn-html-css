@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>header</title>
+    <style>
+      body{
+        margin: 0;
+      }
+      .header{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 15px;
+      padding-right: 70px;
+      /* background-color: rgb(78, 78, 78); */
+      }
+      .profile-picture {
+        width: 70px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+        margin-left: 3px;
+      }
+      .name-user {
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+      .user-profile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* background-color: rebeccapurple; */
+        width: 200px;
+      }
+      .buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .add-friend {
+        background-color: rgb(49, 163, 240);
+        font-family: sans-serif;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        border: none;
+        width: 100px;
+        height: 40px;
+        border-radius: 8px;
+        align-items: center;
+      }
+      .message {
+        background-color: rgba(231, 231, 231, 0.685);
+        font-family: sans-serif;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 14px;
+        border: none;
+        width: 100px;
+        height: 40px;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body >
+    <div class="header">
+      <div class="user-profile">
+        <img
+          class="profile-picture"
+          src="/Beginner/images/2ee9dc84-ce5c-4c2a-8d53-91162262f9b4.jpg"
+        />
+        <div class="name-user">Oliver Cat</div>
+      </div class="buttons">
+      <div>
+        <button class="add-friend">Add Friend</button>
+        <button class="message">Message</button>
+      </div>
+    </div>
+  </body>
+</html>

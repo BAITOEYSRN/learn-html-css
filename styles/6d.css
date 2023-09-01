@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=IBM+Plex+Sans+Thai:wght@300&family=Montserrat:ital,wght@1,400&family=Sriracha&display=swap');
+
+* {
+  margin: 0;
+}
+body {
+  font-family: Montserrat;
+}
+h1,
+p {
+  text-align: center;
+}
+span {
+  text-decoration: underline;
+}

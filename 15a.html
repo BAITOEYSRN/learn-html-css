@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>posiotion absolute</title>
+    <style>
+      body {
+        background-color: rgb(201, 201, 201);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+      .back {
+        background-color: white;
+        height: 300px;
+        width: 300px;
+        position: relative;
+      }
+      button {
+        background-color: black;
+        color: white;
+        width: 30px;
+        height: 30px;
+        border: none;
+        border-radius: 50%;
+        position: absolute;
+        top: 8px;
+        right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="back">
+      <button>X</button>
+    </div>
+  </body>
+</html>

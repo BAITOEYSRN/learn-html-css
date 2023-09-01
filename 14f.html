@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Discord</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      div {
+        font-family: Roboto, Arial;
+      }
+      .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100px;
+        background-color: rgb(40, 46, 53);
+        padding-top: 10px;
+      }
+      img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        margin-left: 10px;
+        margin-top: 5px;
+      }
+      .info {
+        position: fixed;
+        top: 0;
+        left: 100px;
+        bottom: 0;
+        width: 300px;
+        background-color: rgb(55, 57, 59);
+      }
+      .info-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        padding-top: 10px;
+        padding-left: 20px;
+        align-items: center;
+        margin-bottom: 0px;
+      }
+      .add {
+        color: gray;
+        font-size: 25px;
+        padding-right: 10px;
+        background-color: rgb(55, 57, 59);
+        border: none;
+      }
+      .general {
+        padding-left: 20px;
+        color: gray;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="profile-sidebar">
+        <img src="/Beginner/images/Bijou but with glasses _3.jpg" />
+        <img src="/Beginner/images/de3b8555-c359-4780-b3ad-9bb40a34e777.jpg" />
+        <img src="/Beginner/images/e77296fe-9914-4957-86f9-92d65548b6da.jpg" />
+      </div>
+    </div>
+    <div class="info">
+      <div class="info-title">
+        <div>INFO</div>
+        <button class="add">+</button>
+      </div>
+      <div class="general">
+        <div># new-videos</div>
+        <div># updates</div>
+        <div># faq</div>
+      </div>
+    </div>
+  </body>
+</html>
